@@ -5,7 +5,7 @@ app = Flask (__name__)
 @app.route("/")
 def portada():
       return '''
-   <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -34,6 +34,17 @@ def portada():
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             padding: 20px;
             margin-bottom: 20px;
+            animation: fadeIn 2s ease-out;
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
         }
         img {
             max-width: 100%;
@@ -46,6 +57,10 @@ def portada():
         }
         h2 {
             color: #ff6699;
+        }
+        h1 {
+            font-size: 20px;
+            color: #555;
         }
     </style>
 </head>
