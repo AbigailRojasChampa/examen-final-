@@ -58,6 +58,8 @@ def portada():
             <h2>Maquillaje</h2>
             <img src="https://elcomercio.pe/resizer/baG32pMFY-rnpgNfZwezvZ0TRSo=/980x0/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/SVSVLNI6KBAZDJTYROSRRHWTTY.png" alt="Maquillaje">
             <p>¡Experimenta con diferentes estilos y tendencias!</p>
+            <h1>email:i2212751@continental.edu.pe</h1>
+            <h2>nombre:Rojas Champa Abigaid</h2>
         </section>
     </main>
 </body>
